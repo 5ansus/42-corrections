@@ -2,12 +2,17 @@
 void ft_is_negative(int n);
 
 int	main(void){
-    int i, n = -10;
+    int n = -10;
     while(n <= 10){
-        printf("The number %d is: ", n);
         ft_is_negative(n);
-        printf("\n");
+        printf(": is returned when used with %d\n ", n);
         n++;
     }
+    n =  2147483647;
+    ft_is_negative(n);
+    printf(": is returned when used with %d\n ", n);
+    n =  -2147483648;
+    ft_is_negative(n);
+    printf(": is returned when used with %d\n ", n);
 	return 0;
 }

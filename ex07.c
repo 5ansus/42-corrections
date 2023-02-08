@@ -1,18 +1,18 @@
+#include <stdio.h>
 void ft_putnbr(int nb);
 
 int	main(void){
-    int i, n = -10;
+    int n = -10;
     while(n <= 10){
-        printf("The number %d is orinted like: ", n);
         ft_putnbr(n);
-        printf("\n");
+        printf(": I tried to write %d\n", n);
         n++;
     }
     n =  2147483647;
-    printf("Case of INT_MAX: %d is orinted like: ", n);
     ft_putnbr(n);
+    printf(": I tried to write %d\n ", n);
     n =  -2147483648;
-    printf("Case of INT_MIN: %d is orinted like: ", n);
     ft_putnbr(n);
+    printf(": I tried to write %d\n", n);
     return 0;
 }
