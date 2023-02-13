@@ -45,4 +45,28 @@ test8:
 	gcc -Wall -Wextra -Werror ex08.c ex08/ft_print_combn.c -o ejercicio8.out
 	./ejercicio8.out
 
+removeCs:
+	ex00.c
+	ex01.c
+	ex02.c
+	ex03.c
+	ex04.c
+	ex05.c
+	ex06.c
+	ex07.c
+	ex08.c
+
+removeOuts:
+	./ejercicio0.out
+	./ejercicio1.out
+	./ejercicio2.out
+	./ejercicio3.out
+	./ejercicio4.out
+	./ejercicio5.out
+	./ejercicio6.out
+	./ejercicio7.out
+	./ejercicio8.out
+
+clean: removeOuts removeCs
+
 alltest: test0 test1 test2 test3 test4 test5 test6 test7 test8
