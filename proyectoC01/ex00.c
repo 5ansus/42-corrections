@@ -20,11 +20,11 @@ int	main(void)
 	int	*puntero_x = &x;
 
 	printf("PRE FUNCION\n");
-	printf("Valor de x: %d -- Valor de y: %d", x, y);
+	printf("Valor de x: %d -- Valor de y: %d\n", x, y);
 	ft_ft(puntero_x);
 	ft_ft(&y);
 	printf("POST FUNCION\n");
-	printf("Valor de x: %d -- Valor de y: %d", x, y);
+	printf("Valor de x: %d -- Valor de y: %d\n", x, y);
 
 	return 0;
 }
