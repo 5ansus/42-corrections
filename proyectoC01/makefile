@@ -1,4 +1,6 @@
 all:
+
+init:
 	cp * ./../../
 	cd ..
 	cd ..
