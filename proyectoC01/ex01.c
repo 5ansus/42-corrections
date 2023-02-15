@@ -27,10 +27,10 @@ int	main(void)
 	int *********puntero9 = &puntero8;
 
 	printf("PRE FUNCION\n");
-	printf("Valor de x: %d", x);
+	printf("Valor de x: %d\n", x);
 	ft_ultimate_ft(puntero9);
 	printf("POST FUNCION\n");
-	printf("Valor de x: %d", x);
+	printf("Valor de x: %d\n", x);
 
 	return 0;
 }
