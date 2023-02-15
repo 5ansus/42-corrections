@@ -1,4 +1,7 @@
 all:
+	cp * ./../../
+	cd ..
+	cd ..
 
 norminette:
 	norminette ex01/ft_ultimate_ft.c
