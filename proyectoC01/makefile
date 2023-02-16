@@ -49,12 +49,8 @@ removeOuts:
 	rm test*
 
 clean: removeOuts removeCs
-<<<<<<< HEAD
 
-alltest: test0 test1 test2 test3 test4 test5 test6 test7 test8
 
 delete:
 	rm -rd 42-corrections
 	rm makefile
-=======
->>>>>>> 3c94e99bdc73bf04e4a5b2171020504021d2c382
