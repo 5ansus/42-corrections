@@ -48,9 +48,8 @@ removeCs:
 removeOuts:
 	rm test*
 
-clean: removeOuts removeCs
+clean: removeOuts
 
-
-delete:
+delete: removeCs
 	rm -frd 42-corrections
 	rm makefile
