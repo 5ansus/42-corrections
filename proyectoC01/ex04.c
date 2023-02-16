@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ex00.c                                             :+:      :+:    :+:   */
+/*   ex04.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sanferna <sanferna@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -11,20 +11,18 @@
 /* ************************************************************************** */
 
 #include <stdio.h>
-void	ft_ft(int *nbr);
+void	ft_ultimate_div_mod(int *a, int *b);
 
 int	main(void)
 {
-	int	x = -25;
-	int	y = 1000;
-	int	*puntero_x = &x;
+	int	x = 103;
+	int	y = 5;
 
-	printf("PRE FUNCION - 1ºPuntero\n");
-	printf("Valor de x: %d -- Valor de y: %d\n", x, y);
-	ft_ft(puntero_x);
-	ft_ft(&y);
-	printf("POST FUNCION - 1ºPuntero\n");
-	printf("Valor de x: %d -- Valor de y: %d\n", x, y);
+	printf("PRE FUNCION - División de 103 y 5\n");
+	printf("Valor del cociente: %d -- Valor del resto: %d\n", x, y);
+	ft_div_mod(&x, &y);
+	printf("POST FUNCION - División de 103 y 5\n");
+	printf("Valor del cociente: %d -- Valor del resto: %d\n", x, y);
 
 	return 0;
 }

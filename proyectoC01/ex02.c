@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ex00.c                                             :+:      :+:    :+:   */
+/*   ex02.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sanferna <sanferna@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -11,19 +11,17 @@
 /* ************************************************************************** */
 
 #include <stdio.h>
-void	ft_ft(int *nbr);
+void	ft_swap(int *a, int *b);
 
 int	main(void)
 {
 	int	x = -25;
 	int	y = 1000;
-	int	*puntero_x = &x;
 
-	printf("PRE FUNCION - 1ºPuntero\n");
+	printf("PRE FUNCION - Swap\n");
 	printf("Valor de x: %d -- Valor de y: %d\n", x, y);
-	ft_ft(puntero_x);
-	ft_ft(&y);
-	printf("POST FUNCION - 1ºPuntero\n");
+	ft_swap(&x, &y);
+	printf("POST FUNCION - Swap\n");
 	printf("Valor de x: %d -- Valor de y: %d\n", x, y);
 
 	return 0;

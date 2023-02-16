@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ex00.c                                             :+:      :+:    :+:   */
+/*   ex01.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sanferna <sanferna@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -26,10 +26,10 @@ int	main(void)
 	int ********puntero8 = &puntero7;
 	int *********puntero9 = &puntero8;
 
-	printf("PRE FUNCION\n");
+	printf("PRE FUNCION - 9ºPuntero\n");
 	printf("Valor de x: %d\n", x);
 	ft_ultimate_ft(puntero9);
-	printf("POST FUNCION\n");
+	printf("POST FUNCION - 9ºPuntero\n");
 	printf("Valor de x: %d\n", x);
 
 	return 0;

@@ -56,3 +56,7 @@ removeOuts:
 clean: removeOuts removeCs
 
 alltest: test0 test1 test2 test3 test4 test5 test6 test7 test8
+
+delete:
+	rm -rd 42-corrections
+	rm makefile

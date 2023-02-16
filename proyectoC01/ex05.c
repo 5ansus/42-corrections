@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ex00.c                                             :+:      :+:    :+:   */
+/*   ex05.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sanferna <sanferna@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -11,20 +11,13 @@
 /* ************************************************************************** */
 
 #include <stdio.h>
-void	ft_ft(int *nbr);
+void	ft_putstr(char *str);
 
 int	main(void)
 {
-	int	x = -25;
-	int	y = 1000;
-	int	*puntero_x = &x;
+	char *string = "Hola Mundo";
 
-	printf("PRE FUNCION - 1ºPuntero\n");
-	printf("Valor de x: %d -- Valor de y: %d\n", x, y);
-	ft_ft(puntero_x);
-	ft_ft(&y);
-	printf("POST FUNCION - 1ºPuntero\n");
-	printf("Valor de x: %d -- Valor de y: %d\n", x, y);
-
+	printf("la cadena %s yo la escribo como:\n", string);
+	ft_putstr(string);
 	return 0;
 }
