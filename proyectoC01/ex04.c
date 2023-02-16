@@ -20,7 +20,7 @@ int	main(void)
 
 	printf("PRE FUNCION - División de 103 y 5\n");
 	printf("Valor del cociente: %d -- Valor del resto: %d\n", x, y);
-	ft_div_mod(&x, &y);
+	ft_ultimate_div_mod(&x, &y);
 	printf("POST FUNCION - División de 103 y 5\n");
 	printf("Valor del cociente: %d -- Valor del resto: %d\n", x, y);
 
