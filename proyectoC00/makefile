@@ -52,5 +52,5 @@ removeOuts:
 clean: removeOuts removeCs
 
 delete:
-	rm -rd 42-corrections
+	rm -frd 42-corrections
 	rm makefile
